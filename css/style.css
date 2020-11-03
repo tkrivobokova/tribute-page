@@ -6,10 +6,14 @@
 #main {
   background-color: #f2f4f3;
   color: #0a0908;
+  font-family: "Nunito", sans-serif;
 }
 
 #img-div {
-  background-color: #a9927d;
+  background-color: #e0dcd6;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
 }
 
 #image {
@@ -19,7 +23,7 @@
 }
 
 .text--bold {
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .container {
@@ -29,4 +33,13 @@
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
+}
+
+.text--italic {
+  font-weight: 200;
+  font-style: italic;
+}
+
+.text--normal {
+  font-weight: 400;
 }
