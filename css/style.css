@@ -36,8 +36,8 @@
 }
 
 #image {
-  width: 600px;
-  height: 700px;
+  max-width: 600px;
+  max-height: 700px;
   object-fit: cover;
   margin-bottom: 15px;
 }
@@ -59,7 +59,7 @@
 .links {
   display: flex;
   justify-content: space-between;
-  width: 400px;
+  max-width: 400px;
 }
 
 .link {
